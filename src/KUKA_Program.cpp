@@ -16,6 +16,7 @@ float;
 std::string str_col;
 std::string str_pat;
 
+
 //Initial information
 void info_flow()
 {
@@ -75,6 +76,7 @@ void info_flow()
     std::cout << "You have choosen a " << str_col << "top cover engraved with a " << str_pat << ". " << std::endl;
 }
 
+
 //Pick up top cover
 void pu_tcover()
 {
@@ -104,6 +106,7 @@ void pu_tcover()
         }
     }
 }
+
 
 //engraving patterns - triangle, square and circle.
 void engraving()
@@ -147,6 +150,7 @@ void mt_pallet()
     //access other file with the script for moving from engraver to
 }
 
+
 //Mounting the top cover.
 void m_tcover()
 {
@@ -180,7 +184,5 @@ int main(int argc, char** argv)
 
         std::cout << "Inputting 0 will contenue the loop while any other value will break it." << std::endl;
         std::cin >> a;
-
     }
-
 }
